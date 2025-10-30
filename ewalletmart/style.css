@@ -1,0 +1,100 @@
+/* ===== GENERAL ===== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(rgba(0, 0, 50, 0.7), rgba(0, 0, 50, 0.7)),
+              url("csu_logo.png") center/contain no-repeat;
+  background-color: #004aad;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ===== LOGIN BOX ===== */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.login-box {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px 35px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 320px;
+}
+
+.login-box h2.brand {
+  color: #004aad;
+  margin-bottom: 8px;
+  font-size: 26px;
+}
+
+.login-box h3 {
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 500;
+}
+
+.login-box label {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  margin-top: 10px;
+  color: #333;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.login-box button {
+  width: 100%;
+  background: #004aad;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-box button:hover {
+  background: #0038a3;
+}
+
+.register-link, .demo {
+  margin-top: 12px;
+  font-size: 13px;
+}
+
+.register-link a {
+  color: #004aad;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+.error {
+  background: #ffe6e6;
+  color: #d93025;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
